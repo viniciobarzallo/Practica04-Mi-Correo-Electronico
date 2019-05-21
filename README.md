@@ -23,7 +23,7 @@ Despues de seguir una estructura correcto con cada una de las etiquetas nuestra 
 
 <p>Usuario con rol de user:</p>
 
-<ol type="d">
+<ol type="a">
   <li>Visualizar en su pagina principal (index.php) el listado de todos los mensajes electrónicos recibidos, ordenados por los más recientes.</li>
   <li>Visualizar el listado de todos los mensajes electrónicos enviados, ordenados por los más recientes.</li>
   <li>Enviar mensajes electrónicos a otros usuarios de la aplicación web.</li>
