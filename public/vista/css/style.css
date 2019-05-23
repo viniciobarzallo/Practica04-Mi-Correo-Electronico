@@ -1,0 +1,201 @@
+label {
+    margin-top: 20px;
+}
+
+form {
+    margin-left: 25px;
+    width: 55%;
+    float: left;
+}
+
+img {
+    border-right: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+}
+
+.parte1 {
+    width: 50%;
+    float: left;
+}
+
+.parte2 #foto {
+    width: 150px;
+    display: flex;
+    border-radius: 75px;
+}
+
+.parte2 #uploadPreview1 {
+    width: 150px;
+    display: flex;
+    border-radius: 75px;
+}
+
+.thumb {
+    height: 300px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+
+input {
+    width: 380px;
+    height: 27px;
+}
+
+#preview {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 2px;
+    background: #fff;
+    max-width: 200px;
+}
+
+#preview img {
+    width: 25%;
+    display: block;
+}
+
+#buscar {
+    margin-bottom: 5px;
+}
+
+body header h2 {
+    background-color: lightgreen;
+    margin-right: 11.25%;
+    padding: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h5 {
+    width: 100%;
+    font-size: 12pt;
+    margin: 2.5px;
+}
+
+footer {
+    text-align: center;
+}
+
+.navi {
+    position: absolute;
+    margin-left: 87.5%;
+    margin-top: -44px;
+}
+
+#imagen {
+    width: 30px;
+    height: 30px;
+    border-radius: 7.5px;
+}
+
+#imagen2 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    margin-bottom: -12.5px;
+}
+
+body {
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+#menu li>a {
+    background-color: lightgreen;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li>a:hover {
+    color: black;
+    background-color: white;
+}
+
+#menu>li {
+    float: left;
+    text-align: center;
+}
+
+#menu>li>ul {
+    display: none;
+}
+
+#menu>li:hover>ul {
+    display: block;
+}
+
+.naveg {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+.naveg ul {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+}
+
+.naveg ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+.naveg ul li {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.naveg ul li a {
+    color: #222;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8%;
+}
+
+.naveg ul li a:visited {
+    color: #222;
+}
+
+.naveg ul li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.naveg ul li a:focus {
+    outline: thin dotted;
+}
+
+.naveg ul li a:hover, .naveg ul li a:active {
+    outline: 0;
+}
+
+#mensaje {
+    width: 380px;
+    height: 150px;
+}

@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(189, 208, 221);
+}
+
+
+form {
+    /* Sólo para centrar el formulario a la página */
+    
+    margin: 0 auto;
+    width: 500px;
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 2px solid #CCC;
+    border-radius: 1em;
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 0 30px;
+    background-color: rgb(189, 224, 221);
+  }
+
+h1{
+    margin: 0 auto;
+    font-size: 20px;
+    
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+
+input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen las mismas propiedades de fuente
+       Por defecto, las areas de texto tienen una fuente con monospace */
+    font: 1em sans-serif;
+
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 250px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinear campos de texto multilínea con sus labels */
+    vertical-align: top;
+
+    /* Para dar suficiente espacio para escribir texto */
+    height: 5em;
+
+    /* Para permitir a los usuarios cambiar el tamaño de cualquier textarea verticalmente
+        No funciona en todos los navegadores */
+    resize: vertical;
+}
+
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 110px; /* mismo tamaño a todos los elementos label */
+}
+button {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
+}
+
+.logo {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 110px; /* mismo tamaño a todos los elementos label */
+}
+
+logo {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .6em;
+}
+
+
+element.style{
+    background-image: url(../images/micorreo.jpg)
+}
+
+.background>div {
+    background-repeat: no-repeat,no-repeat;
+    background-position: center center,center center;
+    background-size: cover,cover;
+}
+

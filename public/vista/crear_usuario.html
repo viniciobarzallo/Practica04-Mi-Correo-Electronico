@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Crear cuenca</title>
+        <meta name="keywords" content="HTML5, CSS, JavaScript, PHP, MySQL, AJAX, content, margin"/>
+        <link href="css/estiloCrearUsuario.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../controladores/js/funciones.js"> </script>
+        <script type="text/javascript" src="../controladores/js/validaciones.js"> </script>
+    </head>
+
+    <body>
+        <header class="cab">
+            
+        </header>
+
+        <form id="formulario01" method="POST" enctype="multipart/form-data" action="../controladores/crear_usuario.php"
+            onsubmit="return validarCamposObligatorios()">
+            <h1>Crear cuenta</h1>
+            <br>
+            <div>
+                <label for="cedula">Cedula(*)</label>
+                <input type="text" id="cedula" name="cedula" value="" placeholder="0101010101" />
+                <span id="mensajeCedula" class="error"> </span>
+                <br>
+            </div>
+            <div>
+                <label for="nombres">Nombres (*)</label>
+                <input type="text" id="nombres" name="nombres" value="" placeholder="Tus nombres" onkeyup="valLetras(this)" />
+                <span id="mensajeNombres" class="error"></span>
+                <br>
+            </div> 
+            <div>   
+                <label for="apellidos">Apelidos (*)</label>
+                <input type="text" id="apellidos" name="apellidos" value="" placeholder="Tus apellidos"onkeyup="valLetras(this)" />
+                <span id="mensajeApellidos" class="error"></span>
+                <br>
+            </div>
+            <div>   
+                <label for="direccion">Dirección (*)</label>
+                <input type="text" id="direccion" name="direccion" value="" placeholder="Tu dirección" /><span id="mensajeDireccion" class="error"></span>
+                <br>
+            </div>
+            <div>    
+                <label for="telefono">Teléfono (*)</label>
+                <input type="text" id="telefono" name="telefono" value="" placeholder="09XXXXXXXX"onkeyup="valNumeros(this)" />
+                <span id="mensajeTelefono" class="error"></span>
+                <br>
+            </div>    
+            <div>
+                <label for="fecha">Fecha Nacimiento (*)</label>
+                <input type="text" id="fechaNacimiento" name="fechaNacimiento" value=""placeholder="dd/mm/aaaa" /><span id="mensajeFechaNacimiento" class="error"></span>
+                <br>
+            </div>
+            <div>
+                <label for="correo">Correo electrónico (*)</label>
+                <input type="text" id="correo" name="correo" value="" placeholder="ejemplo123@ups.edu.ec/est.ups.edu.ec" /><span id="mensajeCorreo" class="error"></span>
+                <br>
+            </div>
+            <div>
+                <label for="correo">Contraseña (*)</label>
+                <input type="password" id="contrasena" name="contrasena" value="" placeholder="minimo 8 caracteres" /><span id="mensajeContrasena" class="error"></span>
+                <br>
+            </div> 
+            <div class="button">    
+                <input type="submit" id="crear" name="crear" value="Aceptar" />
+                <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />
+            <div>
+                <a href="login.html"> <input type="button" id="login" name="login" value="Ya tengo una cuenta"/> </a>
+            </div>    
+            
+            <div>
+                <label for="imagen">Selecciona tu foto</label>
+                <input id="uploadImage1" type="file" name="image" onchange="previewImage(1)" accept="image/*" />
+            </div>
+            <div logo>
+                <img id="uploadPreview1" width="150" height="150" src="images/foto.png" />
+            </div>
+        </form>
+    </body>
+</html>
